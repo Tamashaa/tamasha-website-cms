@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_links",
+  "info": {
+    "singularName": "header-link",
+    "pluralName": "header-links",
+    "displayName": "Header Link",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}
